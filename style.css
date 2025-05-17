@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: Georgia, Garamond, sans-serif;
+}
+
+/* Remove underline from all links */
+a {
+    text-decoration: none;
+}
+
+/* Position "Home" link to the right corner of the page */
+a.home {
+    display: block;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* Provide header for homepage */
+.main-heading {
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Provide header for individual recipe pages */
+.sub-heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Remove unnecessary whitespace */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove li bullet points, remove whitespace, and size font */
+li, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+/* Center recipe images */
+img {
+    display: block;
+    margin: auto;
+}
+
+/* Remove whitespace from ingredient list */
+ul.ingredients li, .ingredient-header {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li.recipe {
+    text-align: center;
+}
+
+/* Left-align ingredient header */
+h4 {
+    text-align: left;
+}
+
+/* Resize font for recipe introductions and headers */
+.first-intro, .second-intro, .ingredient-header, .step-header {
+    font-size: 14px;
+}
+
+/* Adjust step introductions and headers for proper alignment */
+.second-intro, .step-header {
+    padding-bottom: 15px;
+}
+
+/* Remove space between ingredients/steps headers and the text that follows */
+.ingredient-header, .step-header {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
